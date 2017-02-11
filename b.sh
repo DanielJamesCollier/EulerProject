@@ -1,0 +1,1 @@
+clang++ main.cpp -o "Project Euler Solutions" -stdlib=libc++ -std=c++14
