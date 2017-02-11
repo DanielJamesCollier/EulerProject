@@ -56,10 +56,13 @@ long long int problemThree() {
 }
 //----------------------------------------
 int main() {
-    td::cout << "-----------------------------" << std::endl;
+    std::cout << "-----------------------------" << std::endl;
+    std::cout << "--------Euler Project--------" << std::endl;
+    std::cout << "-----------------------------" << std::endl;
     std::cout << "problemOne: " << problemOne() << std::endl;
     std::cout << "problemTwo: " << problemTwo() << std::endl;
     std::cout << "problemTwo: " << problemThree() << std::endl;
+    std::cout << "-----------------------------" << std::endl;
 
     problemThree();
     return 0;
